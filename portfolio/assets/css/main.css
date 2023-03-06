@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+#main-wrap {
+  width:80%;
+  margin: 0 auto;
+  height: 90vh;
+  background-color: purple;
+}
+
+.box {
+  text-align: center;
+  padding: 2%;
+}
+
+.link {
+  display: block;
+  margin-top: 1%;
+  padding: 1%;
+  background-color: #f54278;
+}
+
+.disclaimer {
+  color: #f54278;
+}
+
+#linkz li{
+  list-style-type: none;
+}
+
+#linkz ul {
+  padding-left: 0;
+}
+
+#linkz a{
+  text-decoration: none;
+  color:white;
+}
+
+#linkz a:visited{
+  color: white;
+}
+
+#linkz a:hover{
+  color: red;
+}

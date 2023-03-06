@@ -5,18 +5,35 @@
     <meta name="Description" content="portfolio site for ifsc 1310">
     <meta name="Author" content="Joshua Rodgers">
     <meta charset="utf-8">
+    <link rel="stylesheet" href="assets/css/main.css">
   </head>
   <body>
     <div id="main-wrap">
-      <div id="header">
+      <div id="header" class="box">
         <h1>Joshua Rodgers</h1>
+        <span class="disclaimer">(don't freak out, it's supposed to look weird)</span>
+      </div>
+      <div id="linkz" class="box">
+        <ul>
+          <li>
+            <a href="prototype.html" class="link" >Prototype Website Assignment</a>
+          </li>
+          <li>
+            <a href="assets/img/CSSDiner.png" class="link">CSS Diner Screenshot</a>
+          </li>
+          <li>
+            <a href="assets/img/flexbox_froggy.jpg" class="link">Flexbox Froggy Screenshot</a>
+          </li>
+        </ul>
+
+      </div>
+      <div class="box">
+        <canvas id="canvas" width="300" height="300"></canvas>
       </div>
     </div>
-    <ul>
-      <li>
-        <a href="prototype.html">Prototype Website Assignment</a>
-      </li>
-      <li><a href="CSSDiner/CSSDiner.png">CSS Diner Screenshot</a></li>
-    </ul>
+
+    <script src="assets/js/anim.js">
+
+    </script>
   </body>
 </html>
