@@ -1,0 +1,36 @@
+#wrapper {
+  padding: 1%;
+}
+
+div {
+  margin:1%;
+}
+
+#navy {
+  float: left;
+  width:48%;
+  padding: 10% 0%;
+}
+
+#teal {
+  float: left;
+  width:48%;
+  padding: 10% 0%;
+}
+
+#blue {
+  float: left;
+  clear:left;
+  width:48%;
+  padding: 10% 0%;
+}
+
+#aqua {
+  float: left;
+  width:48%;
+  padding: 10% 0%;
+}
+
+#footer {
+  clear:both;
+}

@@ -1,3 +1,44 @@
-body {
-  background: red;
+#wrapper {
+  width: 500px;
+  height: 200px;
+}
+
+#navy {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+}
+
+#teal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+}
+
+#blue {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+}
+
+#aqua {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100px;
+  height: 100px;
+}
+
+#footer {
+  position:relative;
+  top: 25%;
+  width: 100px;
+  height: 100px;
+  margin: auto;
 }
