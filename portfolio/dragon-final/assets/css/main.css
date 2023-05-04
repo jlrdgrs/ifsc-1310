@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+body {
+  background: black;
+}
+
+header {
+  background: url('../img/spacex_ascii_multi_sm.png') no-repeat center;
+  background-size: contain;
+}
+
+header img {
+  visibility: hidden;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#intro {
+  font-family: "VT323", monospace;
+  font-size: 2em;
+  color: white;
+  text-align: center;
+}
+
+.block {
+  padding:1%;
+  width: 90%;
+  margin: 0 auto;
+}
+
+#home-img {
+  background: url('../img/dragon_port.png') no-repeat center;
+  background-size: contain;
+}
+
+#home-img img {
+  visibility: hidden;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#dragon-img {
+  background: url('../img/spin.gif') no-repeat center;
+  background-size: contain;
+}
+
+#dragon-img img {
+  visibility: hidden;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#history-img {
+  background: url('../img/dragon_flight_2.gif') no-repeat center;
+  background-size: contain;
+}
+
+#history-img img {
+  visibility: hidden;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#faq-img {
+  background: url('../img/dock.gif') no-repeat center;
+  background-size: contain;
+}
+
+#faq-img img {
+  visibility: hidden;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.menu {
+  color: white;
+  font-family: "VT323", monospace;
+  font-size: 2em;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#input-block {
+  color: white;
+  font-family: "VT323", monospace;
+  font-size: 2em;
+  text-align: center;
+}
+
+#input-block input[type=text] {
+  display: inline;
+  background: black;
+  border: none;
+  caret-shape: underscore;
+  caret-color: white;
+  color: white;
+  font-family: "VT323", monospace;
+  font-size: 1.5em;
+}
+
+#input-block input[type=text]:focus {
+  outline: none;
+}
